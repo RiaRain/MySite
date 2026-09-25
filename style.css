@@ -94,8 +94,8 @@ section + section {
   height: 16px;
   margin-left: 8px;
   background-color: var(--color-white);
-  mask: url("/img/svg/arrow.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/svg/arrow.svg") center / contain no-repeat;
+  mask: url("img/svg/arrow.svg") center / contain no-repeat;
+  -webkit-mask: url("img/svg/arrow.svg") center / contain no-repeat;
   margin-left: 20px;
   margin-top: 4px;
 }
@@ -219,15 +219,15 @@ a:hover{
 }
 
 .about-me__quote::before {
-  mask: url("/img/svg/quote.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/svg/quote.svg") center / contain no-repeat;
+  mask: url("img/svg/quote.svg") center / contain no-repeat;
+  -webkit-mask: url("img/svg/quote.svg") center / contain no-repeat;
   top: 30px;
   left: 30px;
 }
 
 .about-me__quote-text::after {
-  mask: url("/img/svg/horizontal-line.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/svg/horizontal-line.svg") center / contain no-repeat;
+  mask: url("img/svg/horizontal-line.svg") center / contain no-repeat;
+  -webkit-mask: url("img/svg/horizontal-line.svg") center / contain no-repeat;
   bottom: -36px;
   left: 0;
 }
@@ -286,23 +286,23 @@ a:hover{
 }
 
 .about-me__advantages-item--system-thinking::before {
-  mask: url("/img/svg/brain.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/svg/brain.svg") center / contain no-repeat;
+  mask: url("img/svg/brain.svg") center / contain no-repeat;
+  -webkit-mask: url("img/svg/brain.svg") center / contain no-repeat;
 }
 
 .about-me__advantages-item--responsibility::before {
-  mask: url("/img/svg/checkmark.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/svg/checkmark.svg") center / contain no-repeat;
+  mask: url("img/svg/checkmark.svg") center / contain no-repeat;
+  -webkit-mask: url("img/svg/checkmark.svg") center / contain no-repeat;
 }
 
 .about-me__advantages-item--focus::before {
-  mask: url("/img/svg/focus.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/svg/focus.svg") center / contain no-repeat;
+  mask: url("img/svg/focus.svg") center / contain no-repeat;
+  -webkit-mask: url("img/svg/focus.svg") center / contain no-repeat;
 }
 
 .about-me__advantages-item--openness::before {
-  mask: url("/img/svg/leaf.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/svg/leaf.svg") center / contain no-repeat;
+  mask: url("img/svg/leaf.svg") center / contain no-repeat;
+  -webkit-mask: url("img/svg/leaf.svg") center / contain no-repeat;
 }
 
 .about-me__greeting,
@@ -397,7 +397,7 @@ a:hover{
 /* Блог */
 
 .my-blog {
-  background-image: url("/img/blog-bg.jpg");
+  background-image: url("img/blog-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 650px;
@@ -483,18 +483,18 @@ a:hover{
 }
 
 .my-contacts__link--mail::before {
-  mask: url("/img/contacts/mail.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/contacts/mail.svg") center / contain no-repeat;
+  mask: url("img/contacts/mail.svg") center / contain no-repeat;
+  -webkit-mask: url("img/contacts/mail.svg") center / contain no-repeat;
 }
 
 .my-contacts__link--telegram::before {
-  mask: url("/img/contacts/telegram.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/contacts/telegram.svg") center / contain no-repeat;
+  mask: url("img/contacts/telegram.svg") center / contain no-repeat;
+  -webkit-mask: url("img/contacts/telegram.svg") center / contain no-repeat;
 }
 
 .my-contacts__link--geo::before {
-  mask: url("/img/contacts/location.svg") center / contain no-repeat;
-  -webkit-mask: url("/img/contacts/location.svg") center / contain no-repeat;
+  mask: url("img/contacts/location.svg") center / contain no-repeat;
+  -webkit-mask: url("img/contacts/location.svg") center / contain no-repeat;
 }
 
 
