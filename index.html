@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"="width=device-width, initial-scale=1.0">
+  <title>Березнева Виктория - frontend developer</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"></head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__logo">
+        <a href="index.html">Виктория Березнева</a>
+      </div>
+      <nav class="header__navigation">
+        <ul class="header__navigation-list">
+          <li class="header__navigation-item"><a href="#about">Обо мне</a></li>
+          <li class="header__navigation-item"><a href="#projects">Проекты</a></li>
+          <li class="header__navigation-item"><a href="#stack">Стек технологий</a></li>
+          <li class="header__navigation-item"><a href="#blog">Блог</a></li>
+          <li class="header__navigation-item"><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__button">
+        <a href="#contacts" class="button">Связаться со мной</a>
+      </div>
+    </header>
+    <section id="about" class="about-me">
+      <div class="about-me__description">
+        <div>
+          <p class="about-me__greeting">Привет, я Виктория</p>
+          <h1 class="about-me__header"><span>Frontend-разработчик</span></h1>
+          <p class="about-me__text">Превращаю идеи и&nbsp;дизайн в&nbsp;современные и&nbsp;удобные интерфейсы.</p>
+          <ul class="about-me__list">
+            <li class="about-me__item">Адаптивная и&nbsp;кроссбраузерная вёрстка</li>
+            <li class="about-me__item">Pixel Perfect по макетам Figma</li>
+            <li class="about-me__item">Современный и качественный frontend</li>
+            <li class="about-me__item">Интерактивные элементы и&nbsp;удобный пользовательский интерфейс</li>
+            <li class="about-me__item">Работа в&nbsp;команде и&nbsp;профессиональный подход к разработке</li>
+          </ul>
+          <a href="#projects" class="button about-me__button">Мои проекты</a>
+          <!-- <ul class="about-me__advantages">
+            <li class="about-me__advantages-item about-me__advantages-item--system-thinking">
+              <p>Ситемное мышление</p>
+            </li>
+            <li class="about-me__advantages-item about-me__advantages-item--focus">
+              <p>Фокус на результате</p>
+            </li>
+            <li class="about-me__advantages-item about-me__advantages-item--openness">
+              <p>Открытость к&nbsp;новому</p>
+            </li>
+            <li class="about-me__advantages-item about-me__advantages-item--responsibility">
+              <p>Ответственность и&nbsp;честность</p>
+            </li>
+          </ul> -->
+        </div>
+        <div class="about-me__photo">
+          <img src="/img/my-photo.jpg" alt="Моя фотография">
+          <!-- <p class="about-me__quote-accent">Большие цели начинаются с&nbsp;маленьких шагов</p> -->
+          <div class="about-me__quote">
+            <p class="about-me__quote-text"><q>Моя любимая часть работы&nbsp;&mdash; видеть, как оживают интерфейсы.</q></p>
+            <p class="about-me__quote-autor">Виктория Березнева</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Мои проекты</h2>
+      <div class="my-projects">
+        <div class="my-project__card">
+          <img class="my-project__image" src="/img/projects/project-1.webp" alt="Проект 1">
+          <div class="my-project__description">
+            <h3 class="my-project__header">Проект 1</h3>
+            <p class="my-project__text">Краткое описание проекта 1</p>
+          </div>
+          <a href="#" class="button my-project__button">Подробнее</a>
+        </div>
+        <div class="my-project__card">
+          <img class="my-project__image" src="/img/projects/project-1.webp" alt="Проект 1">
+          <div class="my-project__description">
+            <h3 class="my-project__header">Проект 2</h3>
+            <p class="my-project__text">Краткое описание проекта 2 немного длиннее</p>
+          </div>
+          <a href="#" class="button my-project__button">Подробнее</a>
+        </div>
+        <div class="my-project__card">
+          <img class="my-project__image" src="/img/projects/project-1.webp" alt="Проект 1">
+          <div class="my-project__description">
+            <h3 class="my-project__header">Проект 3</h3>
+            <p class="my-project__text">Краткое описание проекта 3</p>
+          </div>
+          <a href="#" class="button my-project__button">Подробнее</a>
+        </div>
+      </div>
+    </section>
+    <section id="stack">
+      <h2>Стек технологий</h2>
+      <h3>Frontend</h3>
+      <ul class="my-stack__list">
+        <li class="my-stack__item">
+          <img src="/img/stack/HTML.png" alt="HTML">
+          <p class="my-stack__title">HTML</p>
+        </li>
+        <li class="my-stack__item">
+          <img src="/img/stack/css.png" alt="CSS">
+          <p class="my-stack__title">CSS</p>
+        </li>
+        <li class="my-stack__item">
+          <img src="/img/stack/pug.png" alt="Pug">
+          <p class="my-stack__title">Pug</p>
+        </li>
+        <li class="my-stack__item">
+          <img src="/img/stack/js.png" alt="JavaScript">
+          <p class="my-stack__title">JavaScript</p>
+        </li>
+        <li class="my-stack__item">
+          <img src="/img/stack/type-script.png" alt="TypeScript">
+          <p class="my-stack__title">TypeScript</p>
+        </li>
+        <li class="my-stack__item">
+          <img src="/img/stack/react.png" alt="React">
+          <p class="my-stack__title">React</p>
+        </li>
+      </ul>
+
+    <h3>Инструменты</h3>
+      <ul class="my-stack__list">
+        <li class="my-stack__item">
+          <img src="/img/stack/vscode.png" alt="vscode">
+          <p class="my-stack__title">VS Code</p>
+        </li>
+        <li class="my-stack__item">
+          <img src="/img/stack/figma.png" alt="Figma">
+          <p class="my-stack__title">Figma</p>
+        </li>
+        <li class="my-stack__item">
+          <img src="/img/stack/git.png" alt="Git">
+          <p class="my-stack__title">Git</p>
+        </li>
+      </ul>
+
+    <h3>CMS / Платформы</h3>
+      <ul class="my-stack__list">
+        <li class="my-stack__item">
+          <img src="/img/stack/bitrix.png" alt="Bitrix">
+          <p class="my-stack__title">Bitrix</p>
+        </li>
+        <li class="my-stack__item">
+          <img src="/img/stack/tilda.png" alt="Tilda">
+          <p class="my-stack__title">Tilda</p>
+        </li>
+      </ul>
+    </section>
+    <section id="blog">
+      <div class="my-blog">
+        <div class="my-blog__card">
+          <div class="my-blog__description container">
+            <p class="my-blog__philosophy">Моя философия</p>
+            <h2 class="my-blog__header">Развитие&nbsp;&mdash; это образ жизни</h2>
+            <p class="my-blog__text">Постоянно учиться, осваивать новые горизонты, делиться опытом и&nbsp;создавать ценность для кружающих.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section id="contacts" class="my-contacts">
+          <p class="my-contacts__text">Свяжитесь со мной</p>
+          <div class="my-contacts__content">
+            <h2 class="my-contacts__header">Обсудим ваши идеи?</h2>
+            <p>Открыта к&nbsp;новым проектам, интересным знакомствам и&nbsp;совместной работе.</p>
+          <ul class="my-contacts__list">
+            <li class="my-contacts__item">
+              <a href="#" class="my-contacts__link my-contacts__link--mail">bereznevav6@gmail.com</a>
+            </li>
+            <li class="my-contacts__item">
+              <a href="#" class="my-contacts__link my-contacts__link--telegram">BereznevaV_pixel</a>
+            </li>
+            <li class="my-contacts__item">
+              <a href="#" class="my-contacts__link my-contacts__link--geo">Санкт-Петербург, Россия</a>
+          </li>
+          </ul>
+          </div>
+          <nav class="footer__navigation">
+            <ul class="footer__navigation-list">
+              <li class="footer__navigation-item"><a href="#about">Обо мне</a></li>
+              <li class="footer__navigation-item"><a href="#projects">Проекты</a></li>
+              <li class="header__navigation-item"><a href="#stack">Стек технологий</a></li>
+              <li class="footer__navigation-item"><a href="#blog">Блог</a></li>
+              <li class="footer__navigation-item"><a href="#contacts">Контакты</a></li>
+            </ul>
+          </nav>
+      </section>
+    </footer>
+  </div>
+</body>
+</html>
